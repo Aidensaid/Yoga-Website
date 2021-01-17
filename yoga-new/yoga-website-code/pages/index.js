@@ -6,7 +6,6 @@ import PageHeader from "../components/PageHeader";
 export default function Home() {
   return (
     <>
-      {/* <div style={{ backgroundColor: "#f6fff8" }}> */}
       <Head>
         <title>Liz Raikes Yoga</title>
         <link rel="icon" href="/favicon.ico" />
@@ -26,7 +25,6 @@ export default function Home() {
         </p>
         <Divider />
       </Container>
-      {/* </div> */}
     </>
   );
 }
