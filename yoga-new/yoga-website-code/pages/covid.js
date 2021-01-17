@@ -5,7 +5,7 @@ const Covid = () => {
   return (
     <>
       <PageHeader />
-      <Container>
+      <Container style={{ padding: "25px" }}>
         <Header>Class Sizes</Header>
         <p>
           All of my classes follow COVID 19 safety measures, including social

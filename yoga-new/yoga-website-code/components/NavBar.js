@@ -22,12 +22,6 @@ const NavBar = () => {
           </Menu.Item>
         </Link>
 
-        <Link href="about">
-          <Menu.Item name="about" active={activeItem === "about"}>
-            About
-          </Menu.Item>
-        </Link>
-
         <Link href="classes">
           <Menu.Item name="classes" active={activeItem === "classes"}>
             Classes
@@ -37,6 +31,12 @@ const NavBar = () => {
         <Link href="covid">
           <Menu.Item name="covid" active={activeItem === "covid"}>
             COVID 19
+          </Menu.Item>
+        </Link>
+
+        <Link href="about">
+          <Menu.Item name="about" active={activeItem === "about"}>
+            About
           </Menu.Item>
         </Link>
 

@@ -5,7 +5,7 @@ const Classes = () => {
   return (
     <>
       <PageHeader />
-      <Container>
+      <Container style={{ padding: "25px" }}>
         <Header>Individuals</Header>
         <p>
           I currently teach a class on Sundays at 9:30am, at the &#8239;
@@ -16,6 +16,7 @@ const Classes = () => {
             Rozelle School of Arts.
           </a>
         </p>
+        <p>Parking information...</p>
         <Header>Corporate</Header>
         <p>For enquiries...</p>
         <Header>Schools</Header>

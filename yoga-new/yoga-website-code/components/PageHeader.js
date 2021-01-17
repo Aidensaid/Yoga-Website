@@ -7,7 +7,7 @@ const PageHeader = () => {
   return (
     <>
       <StyledContainer>
-        <Header size="huge">Liz Raikes Yoga</Header>
+        <Header size="huge">Liz Raikes Iyengar Yoga</Header>
         <NavBar size="huge"></NavBar>
         <Divider />
       </StyledContainer>
