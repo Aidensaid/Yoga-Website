@@ -1,5 +1,4 @@
 import Head from "next/head";
-import StyledContainer from "../components/Container";
 import Divider from "../components/Divider";
 import { Image, Container } from "semantic-ui-react";
 import PageHeader from "../components/PageHeader";
@@ -12,11 +11,10 @@ export default function Home() {
           <title>Liz Raikes Yoga</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        {/* // /* What's the best way to style this? */}
 
         <PageHeader />
         <Image centered size="huge" src="/yoga.jpg" />
-        <Container text style={{ margin: "5%" }}>
+        <Container text style={{ margin: "50px" }}>
           <p style={{ fontStyle: "Georgia" }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas
             enim id quam aliquam accumsan. Nullam a justo risus. Nam sapien leo,
