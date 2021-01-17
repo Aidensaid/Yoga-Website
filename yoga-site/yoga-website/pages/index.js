@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Container from "../components/Container"
 import Divider from "../components/Divider"
-import { Image } from "semantic-ui-react"
+import { Image, TableBody } from "semantic-ui-react"
 import PageHeader from "../components/PageHeader"
 
 
@@ -14,15 +14,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* // /* What's the best way to style this? */}
+      <style jsx global>{`
+      p {
+        font-size: 20px;
+      }
+    `}</style>
       <Container style={{ padding: "5%" }} >
         <PageHeader />
         <Image centered size="huge"src="/yoga.jpg" />
         <Container text style={{ margin: "5%" }}>
           <p style={{fontStyle:"Georgia"}}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas enim id quam aliquam accumsan. 
-            Nullam a justo risus. Nam sapien leo, scelerisque at lobortis ut, ornare et nisl. Morbi sagittis auctor neque, at elementum massa aliquam in. 
-            Etiam quis pharetra neque. Maecenas lectus purus, pretium in sodales sed, varius eget ante. 
-            Ut aliquet, tortr sit amet efficitur sagittis, elit risus posuere mi, sed placerat est libero in augue.
+          I am passionate about teaching yoga, I enjoy watching my students progress, and feeling the benefits it brings to all aspects of their lives.
+           Iyengar yoga is accessible for all age groups and levels.
+           Poses can be approached in many different ways, props are often used to create effective asanas.
           </p>
           <Divider />
         </Container>

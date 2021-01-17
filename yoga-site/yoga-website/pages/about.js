@@ -11,17 +11,14 @@ const About = () => {
           <Header style={{margin:"5%"}}>
             Iyengar Yoga
           </Header>
-          Elizabeth Raikes is an Iyengar Yoga Practitioner. She has <br/>
-          has been practicing since 2010 and teaching
-          since 2015.
+          I've  been a regular practitioner of Iyengar Yofa for 18 years. I've trained at the BKS Iyengar Yoga Institute in Delhi.
          </Container>
          <Image centered size="medium"src="/portrait.jpg" />
          <Container text style={{margin:"5%"}}>
              <p>
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas enim id quam aliquam accumsan. 
-            Nullam a justo risus. Nam sapien leo, scelerisque at lobortis ut, ornare et nisl. Morbi sagittis auctor neque, at elementum massa aliquam in. 
-            Etiam quis pharetra neque. Maecenas lectus purus, pretium in sodales sed, varius eget ante. 
-            Ut aliquet, tortr sit amet efficitur sagittis, elit risus posuere mi, sed placerat est libero in augue.
+           I am passionate about teaching yoga, I enjoy watching my students progress, and feeling the benefits it brings to all aspects of their lives
+           Iyengar yoga is accessible for all age groups and levels.
+           Poses can be approached in many different ways, props are often used to create effective asanas.
             </p>
             <Divider />
          </Container>
