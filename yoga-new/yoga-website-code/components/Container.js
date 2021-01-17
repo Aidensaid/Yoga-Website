@@ -1,0 +1,8 @@
+import { Container } from "semantic-ui-react";
+import styled from "styled-components";
+
+const StyledContainer = styled(Container)`
+  padding: 75px;
+`;
+
+export default StyledContainer;
